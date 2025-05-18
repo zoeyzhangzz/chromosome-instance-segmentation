@@ -1,5 +1,6 @@
 # Chromosome Instance Segmentation with Cascade Mask R-CNN
 This project uses **Cascade Mask R-CNN** for instance segmentation of metaphase chromosomes based on the **KaryoNet** dataset.
+![](images/seg_result.png)
 
 ## Environment
 Clone this repo and build the environment. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up. Create a virtual-env Python environment to avoid version conflicts.[Conda](https://docs.conda.io/projects/miniconda/en/latest/) is reconmmended.
