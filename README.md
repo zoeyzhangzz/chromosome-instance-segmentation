@@ -3,7 +3,7 @@
 This project uses **Cascade Mask R-CNN** for instance segmentation of metaphase chromosomes based on the **KaryoNet** dataset.
 
 ## Environment
-This project is built upon the [MMDetection](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file) framework. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up your environment.Create a virtual-env Python environment to avoid version conflicts.
+This project is built upon the [MMDetection](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file) framework. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up your environment. Create a virtual-env Python environment to avoid version conflicts.
 
 
 ## Cite & Acknowledgements
