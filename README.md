@@ -1,5 +1,4 @@
 # Chromosome Instance Segmentation with Cascade Mask R-CNN
----
 This project uses **Cascade Mask R-CNN** for instance segmentation of metaphase chromosomes based on the **KaryoNet** dataset.
 
 ## Environment
@@ -12,7 +11,6 @@ conda create -n chrom_seg python=3.9
 ```
 
 ## Train
----
 ### Data Preparation
 The dataset used in this project is [AutoKary2022](https://github.com/wangjuncongyu/chromosome-instance-segmentation-dataset).Chick here to download.
 
