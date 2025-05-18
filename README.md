@@ -16,6 +16,7 @@ conda create -n chrom_seg python=3.9
 The dataset used in this project is [AutoKary2022](https://github.com/wangjuncongyu/chromosome-instance-segmentation-dataset).Chick here to download.
 
 Place your raw training and validation images and annotations in the following directory structure
+```bash
 mmdetection/
 └── data/
     └── coco/
@@ -24,6 +25,8 @@ mmdetection/
         └── annotations/
             ├── train/              # Training annotation files 
             └── val/                # Validation annotation files 
+```
+
 ### Model Configuration
 Modify the file under mmdetection/configs/cascade_rcnn to match dataset and training setup
 num_classes = 22 categories number + 1 =23
