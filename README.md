@@ -13,9 +13,8 @@ conda create -n chrom_seg python=3.9
 
 ## Train
 ### Data Preparation
-The dataset used in this project is [AutoKary2022](https://github.com/wangjuncongyu/chromosome-instance-segmentation-dataset).Chick here to download.
+The dataset used in this project is [AutoKary2022](https://github.com/wangjuncongyu/chromosome-instance-segmentation-dataset). Click here to download. Training and validation images and annotations is palced in the following directory structure.
 
-Place your raw training and validation images and annotations in the following directory structure
 ```bash
 mmdetection/
 └── data/
@@ -23,8 +22,8 @@ mmdetection/
         ├── train2017/              # Raw training images
         ├── val2017/                # Raw validation images
         └── annotations/
-            ├── train/              # Training annotation files 
-            └── val/                # Validation annotation files 
+            ├── train/              # Training annotation 
+            └── val/                # Validation annotation 
 ```
 
 ### Model Configuration
