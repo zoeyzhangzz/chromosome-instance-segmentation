@@ -2,19 +2,9 @@
 ---
 This project uses **Cascade Mask R-CNN** for instance segmentation of metaphase chromosomes based on the **KaryoNet** dataset.
 
-## Installnation
+## Environment
+This project is built upon the [MMDetection](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file) framework. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up your environment.Create a virtual-env Python environment to avoid version conflicts.
 
-- **Model**: Cascade Mask R-CNN  
-- **Backbone**: ResNet-50  
-- **Framework**: MMDetection  
-
-Based on the method proposed by:  
-> Cai & Vasconcelos, *Cascade R-CNN: Delving into High Quality Object Detection*, CVPR 2018.  
-
-## Dataset
-
-Images and annotations come from:  
-> Xu et al., *KaryoNet: Chromosome Recognition With End-to-End Combinatorial Optimization Network*, IEEE TMI 2022.
 
 ## Cite & Acknowledgements
 
@@ -39,7 +29,4 @@ Images and annotations come from:
 }
 ```
 
-The implementation is based on the Cascade R-CNN framework and utilizes the AutoKary2022 dataset.
-Thank theses authors sincerely for their contributions to the community.
-
-This work is built upon the efforts of the KaryoNet and Cascade Mask R-CNN authors — sincere thanks for their contributions.
+The implementation is based on the Cascade R-CNN framework and utilizes the AutoKary2022 dataset.Thank theses authors for their contributions to the community.
