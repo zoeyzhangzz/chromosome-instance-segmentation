@@ -3,8 +3,18 @@
 This project uses **Cascade Mask R-CNN** for instance segmentation of metaphase chromosomes based on the **KaryoNet** dataset.
 
 ## Environment
-This project is built upon the [MMDetection](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file) framework. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up your environment. Create a virtual-env Python environment to avoid version conflicts.
+Clone this repo and build the environment. Please follow the official [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html) to set up. Create a virtual-env Python environment to avoid version conflicts.[Conda](https://docs.conda.io/projects/miniconda/en/latest/) is reconmmended.
 
+```bash
+git clone https://github.com/zoeyzhangzz/chromosome-instance-segmentation.git
+cd chromosome-instance-segmentation
+conda create -n chrom_seg python=3.9 
+```
+
+## Train
+---
+### Data Preparation
+The dataset used in this project is [AutoKary2022](https://github.com/wangjuncongyu/chromosome-instance-segmentation-dataset).Chick here to download.
 
 ## Cite & Acknowledgements
 
